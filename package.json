@@ -1,0 +1,11 @@
+{
+  "name": "resume-analyzer-root",
+  "version": "1.0.0",
+  "description": "Resume Analyzer and Job Matcher unified runner",
+  "scripts": {
+    "start": "npm --prefix server start",
+    "dev": "npm --prefix server start",
+    "seed": "npm --prefix server run seed",
+    "build": "npm --prefix client run build"
+  }
+}
